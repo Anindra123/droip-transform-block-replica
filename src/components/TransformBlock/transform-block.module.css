@@ -1,0 +1,35 @@
+.transform__block_container {
+  max-width: 256px;
+  min-height: 767px;
+  border-radius: 15.5px;
+  background-color: #000;
+  position: relative;
+}
+
+.top__block_container {
+  max-width: 256px;
+  min-height: 32px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+  padding-right: 8px;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.24);
+  border-top-left-radius: 15.5px;
+  border-top-right-radius: 15.5px;
+}
+
+.top__bar_heading_container {
+  max-width: 176px;
+  display: flex;
+  align-items: center;
+  padding-right: 84px;
+}
+.back__btn {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
