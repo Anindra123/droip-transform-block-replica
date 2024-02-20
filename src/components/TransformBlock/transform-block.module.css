@@ -33,3 +33,27 @@
   align-items: center;
   justify-content: center;
 }
+
+.content_container {
+  width: 100%;
+  padding: 16px;
+}
+.content_block {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.content_input_container {
+  /* max-width: 131px; */
+  /* min-height: 96px; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.move_block_heading_container {
+  max-width: 36px;
+  min-height: 32px;
+  display: flex;
+  align-items: center;
+}

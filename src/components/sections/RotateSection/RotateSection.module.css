@@ -1,0 +1,15 @@
+.rotate_section__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.rotate_section_heading_container {
+  max-width: 36px;
+  min-height: 32px;
+  display: flex;
+  align-items: center;
+}
+.rotate_section_input_container {
+  display: flex;
+  flex-wrap: wrap;
+}

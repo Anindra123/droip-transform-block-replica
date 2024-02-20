@@ -1,0 +1,9 @@
+.text_input {
+  display: flex;
+  padding: 4px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  max-width: 40px;
+  min-width: 16px;
+}

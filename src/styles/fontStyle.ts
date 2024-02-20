@@ -1,5 +1,7 @@
-const TEXT_WHITE = "#fff";
-
+export const TEXT_WHITE = "#fff";
+export const TEXT_MUTED = "rgba(255,255,255,0.7)";
+export const TEXT_MUTED_60 = "rgba(255,255,255,0.6)";
+export const TEXT_MUTED_50 = "rgba(255,255,255,.5)";
 
 
 export const fontStyle = {
@@ -15,7 +17,6 @@ export const fontStyle = {
         fontSize: "11px",
         lineHeight: "16px",
         letterSpacing: "1%",
-
     },
 
 }
