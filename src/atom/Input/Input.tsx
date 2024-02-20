@@ -1,7 +1,7 @@
 import { TEXT_WHITE, fontStyle } from "../../styles/fontStyle"
 import InputStyles from "./Input.module.css"
 
-export default function Input({ input_value, input_name }:
+export default function Input({ input_value }:
     { input_value: number, input_name: string }) {
     return (
         <>
