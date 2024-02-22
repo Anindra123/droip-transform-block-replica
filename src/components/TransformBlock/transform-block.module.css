@@ -1,59 +1,45 @@
 .transform__block_container {
-  max-width: 256px;
-  min-height: 767px;
-  border-radius: 15.5px;
-  background-color: #000;
-  position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 256px;
+    min-height: 767px;
+    border-radius: 15.5px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72)),
+        linear-gradient(143deg, #728cba 20%, #ffc3b8);
+    position: relative;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.24);
 }
 
-.top__block_container {
-  max-width: 256px;
-  min-height: 32px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  padding-left: 8px;
-  padding-right: 8px;
-  background-color: rgba(255, 255, 255, 0.1);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.24);
-  border-top-left-radius: 15.5px;
-  border-top-right-radius: 15.5px;
-}
-
-.top__bar_heading_container {
-  max-width: 176px;
-  display: flex;
-  align-items: center;
-  padding-right: 84px;
-}
-.back__btn {
-  width: 32px;
-  height: 32px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.transform__block_container::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: -2px;
+    right: -2px;
+    top: -2px;
+    bottom: -2px;
+    background-image: linear-gradient(
+        143deg,
+        rgba(255, 255, 255, 0.3),
+        transparent
+    );
+    border-radius: 17.5px;
 }
 
 .content_container {
-  width: 100%;
-  padding: 16px;
+    width: 100%;
+    padding-inline: 16px;
 }
-.content_block {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
-.content_input_container {
-  /* max-width: 131px; */
-  /* min-height: 96px; */
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.move_block_heading_container {
-  max-width: 36px;
-  min-height: 32px;
-  display: flex;
-  align-items: center;
+.transform__block_container::after {
+    content: "";
+    position: absolute;
+    z-index: -2;
+    left: -2px;
+    right: -2px;
+    top: -2px;
+    bottom: -2px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72)),
+        linear-gradient(143deg, #728cba 20%, #ffc3b8);
+    border-radius: 17.5px;
 }

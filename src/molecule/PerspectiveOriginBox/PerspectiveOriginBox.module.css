@@ -1,0 +1,35 @@
+.container {
+    width: 72px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner_container {
+    width: 64px;
+    height: 64px;
+    position: relative;
+}
+
+.svg_btn {
+    display: flex;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+}
+.top_left {
+    top: 0;
+    left: 0;
+}
+
+.top_middle {
+    top: 0;
+    left: 0;
+    transform: translate(50%, 0%);
+}
+
+.top_right {
+    top: 0;
+    right: 0;
+}

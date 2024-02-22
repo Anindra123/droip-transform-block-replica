@@ -1,0 +1,29 @@
+.scale_section__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.scale_section_heading_container {
+    max-width: 36px;
+    min-height: 32px;
+    display: flex;
+    align-items: center;
+}
+.scale_section_input_container {
+    display: flex;
+    align-items: center;
+}
+
+.container__start,
+.container__end {
+    display: flex;
+    flex-direction: column;
+}
+
+.container__start {
+    margin-right: 30px;
+}
+
+.container__end {
+    margin-left: 24px;
+}

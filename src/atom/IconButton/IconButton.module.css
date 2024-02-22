@@ -1,4 +1,5 @@
 .icon__btn {
-  text-decoration: none;
-  display: inline-block;
+    text-decoration: none;
+    display: flex;
+    max-width: fit-content;
 }

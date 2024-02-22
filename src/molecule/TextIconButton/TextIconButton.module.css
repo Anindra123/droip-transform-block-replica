@@ -1,0 +1,27 @@
+.text_icon_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    max-width: 224px;
+    min-height: 32px;
+}
+.text_icon_button_content_container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    padding-inline: 8px;
+    background-color: rgba(0, 0, 0, 0.3);
+    column-gap: 4px;
+    border-radius: 4px;
+}
+.button_icon {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

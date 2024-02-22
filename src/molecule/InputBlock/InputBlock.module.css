@@ -1,17 +1,16 @@
 .input__block_container {
-  display: flex;
-  min-height: 32px;
-  align-items: center;
-  max-width: 50%;
-  flex: 0 0 50%;
+    display: flex;
+    min-height: 32px;
+    align-items: center;
+    max-width: 50%;
 }
 
 .input__block_title_container {
-  margin-right: 4px;
+    margin-right: 4px;
 }
 
 .input__block_input_container {
-  display: flex;
-  align-items: center;
-  flex: 0 1;
+    display: flex;
+    align-items: center;
+    flex: 0 1;
 }
