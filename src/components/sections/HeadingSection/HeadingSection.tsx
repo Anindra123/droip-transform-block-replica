@@ -3,6 +3,7 @@ import backButtonIcon from "../../../assets/reverse-reset-icons.svg";
 import transformHeadingIcon from "../../../assets/transform-heading-icon.svg";
 import { fontStyle } from "../../../styles/fontStyle";
 import HeadingStyles from "./HeadingSection.module.css";
+import IconButton from "../../../atom/IconButton/IconButton";
 
 export default function HeadingSection() {
   return (
@@ -12,9 +13,7 @@ export default function HeadingSection() {
           <img src={transformHeadingIcon} width={32} height={32} />
           <p style={fontStyle.text__lg}>Transform</p>
         </div>
-        <a role="button" className={HeadingStyles.back__btn}>
-          <img src={backButtonIcon} width={32} height={32} />
-        </a>
+        <IconButton inputImage={backButtonIcon} width={32} height={32} />
         <ToggleButton button_size="md" />
       </div>
       <div className={HeadingStyles.heading__divider} />

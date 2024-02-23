@@ -8,6 +8,7 @@ import SkewSection from "../sections/SkewSection/SkewSection";
 import OriginTransformBlock from "../ToggleBlock/OriginTransformBlock/OriginTransformBlock";
 import ToggleBlock3D from "../ToggleBlock/ToggleBlock3D/ToggleBlock3D";
 import DistanceSection from "../sections/DistanceSection/DistanceSection";
+import PerspectiveSection from "../sections/PerspectiveSection/PerspectiveSection";
 
 export default function TransformBlock() {
   return (
@@ -36,6 +37,10 @@ export default function TransformBlock() {
       <div className={transformBlockStyles.content_container}>
         <DistanceSection />
         <Divider isVisible={true} />
+      </div>
+
+      <div className={transformBlockStyles.content_container}>
+        <PerspectiveSection />
       </div>
     </div>
   );

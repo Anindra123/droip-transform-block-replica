@@ -10,7 +10,7 @@ export default function TextIconButton({
   button_icon,
 }: TextIconButtonProps) {
   return (
-    <a className={TextIconButtonStyle.text_icon_buton} role="button">
+    <a className={TextIconButtonStyle.text_icon_button} role="button">
       <div className={TextIconButtonStyle.text_icon_button_content_container}>
         <div className={TextIconButtonStyle.button_icon}>
           <img src={button_icon} />

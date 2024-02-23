@@ -6,11 +6,18 @@
 }
 
 .input__block_title_container {
-    margin-right: 4px;
+    display: flex;
+    align-items: center;
 }
 
 .input__block_input_container {
     display: flex;
     align-items: center;
     flex: 0 1;
+}
+
+.icon_container {
+    display: flex;
+    max-width: fit-content;
+    height: fit-content;
 }
